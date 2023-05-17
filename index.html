@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AFETOmossoro</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet "href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    
+    
+    <style>
+      
+      /* @keyframes spin {
+        20% { transform: rotate(0deg); }
+        100% { transform: rotate(360deg); }
+      } 
+
+      .iconheart {
+        width: 100px;
+        height: 100px;
+        position: relative;
+      }
+
+      .iconheart::before {
+        content: "";
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        animation: spin 2s linear infinite;
+
+      } */
+
+      .carousel {
+      overflow-x: scroll;
+      scroll-snap-type: x mandatory;
+      -webkit-overflow-scrolling: touch;
+    }
+
+    .carousel::-webkit-scrollbar {
+      display: none;
+    }
+
+    .carousel-item {
+      scroll-snap-align: center;
+      flex: 0 0 auto;
+      width: 100%;
+      max-width: 300px;
+    }
+      
+
+    </style>
+</head>
+<body class=" ">
+    <header class="  bg-red-100 py-9 px-11">
+        <section class=" flex items-center justify-between w-100% h-100% ">
+          
+          <img class=" w-40"src="/imagens/logo.png" alt="">
+          <span class="font-thin text-red-300 text-4xl">GAA AFETO MOSSORÓ</span>
+               
+        </section>
+                
+      </header>
+    
+    
+    
+      <section class="flex items-center justify-between bg-red-100  "> 
+        <div id="esquerda"class=" pl-12  ">
+          <div class="w-20 h-50 ">
+            <div class="bg-red-600 ml-10">
+              <i class='bx bx-heart-circle' style='color:#ffffff'  ></i>
+
+            </div>
+            <div class="bg-yellow-400 ml-10 hover:w-200">
+              ()
+  
+            </div>
+            <div class="bg-blue-600 ml-10">
+              ()
+  
+            </div>
+            <div class="bg-green-400 ml-10">
+              ()
+  
+            </div>
+          </div>
+          
+          <div class="iconheart">
+            <img class="animate__animated animate__heartBeat animate__infinite infinite animate__slower	3s"  src="./imagens/iconheart.png" alt="">
+          </div>
+        </div>
+
+        <div id= "direita" class=" flex-row ">
+          <div class="flex items-center justify-between pb-4">
+
+            <div>
+              <h1 class="text-xl font-sans text-red-600 flex items-center ">Quem somos?</h1>
+            </div>
+            <div class="mr-10">
+              <i class='bx bx-md bxl-instagram bx-tada bx-rotate-180' style='color:#e21313' ></i>
+              <i class='bx bx-md bxl-facebook-circle' style='color:#e21313'  ></i>
+              <i class='bx bx-md bx-envelope' style='color:#e21313' ></i>
+              <i class='bx bx-md bxl-whatsapp' style='color:#e21313' ></i>
+            </div>
+            
+          </div>
+
+          <div class="flex w-96 "> <!--nao estou conseguindo mostrar os botoes em cima do carrossel -->
+            <div class="carousel-indicators">
+              <div class="carousel-indicator active"></div>
+              <div class="carousel-indicator"></div>
+              <div class="carousel-indicator"></div>
+            </div>
+            
+             
+            <div class="carousel flex ">
+              <div class="carousel-item">
+                <img src="./imagens/imgkids1.jpg" alt="Imagem 1">
+              </div>
+              <div class="carousel-item">
+                <img src="./imagens/imgkid2.jpg" alt="Imagem 2">
+              </div>
+              <div class="carousel-item">
+                <img src="./imagens/imgkids3.jpg" alt="Imagem 3">
+              </div>
+              
+            </div>
+            
+          </div>
+
+        <div>
+          
+        </div>
+        </div>
+        
+        
+    </section>
+    
+    
+
+    
+    
+      <div class="container mx-auto py-4">
+        
+        <!-- <p class="mt-4">Este é um exemplo de página HTML simples usando o framework Tailwind.</p>
+      </div>
+    <div>
+      <ul>
+        <li class="animate__animated animate__bounce animate__infinite	infinite">animated bounce</li>
+        <li class="animate__animated animate__wobble animate__infinite	infinite">coisa</li>
+        <li class="animate__animated animate__heartBeat animate__infinite infinite">coracao</li>
+        <li class="animate__animated animate__shakeY animate__heartBeat__infinite infinite">nadao</li>
+        <li class="animate__animated animate__flip animate__infinite	infinite">coisa</li>
+        <li class="animate__animated ">coisa</li>
+      </ul>
+    </div>   -->
+
+
+
+
+    <script src="https://cdn.tailwindcss.com/2.2.19/jquery.min.js"></script>
+
+    <!-- <script src="https://cdn.tailwindcss.com"></script> -->
+
+    <script>
+      $(function() {
+        $('.carousel').on('scroll', function() {
+          var scrollLeft = $(this).scrollLeft();
+          var itemWidth = $('.carousel-item').outerWidth();
+          var currentItem = Math.round(scrollLeft / itemWidth);
+          $('.carousel-item').removeClass('active');
+          $('.carousel-item').eq(currentItem).addClass('active');
+        });
+      });
+    </script>
+</body>
+
+</html>
