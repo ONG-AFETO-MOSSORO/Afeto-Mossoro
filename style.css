@@ -111,30 +111,36 @@ font-size: 25px;
 
 .btnred {
     background-color: rgb(225, 15, 15);
+    justify-content: left;
+    white-space: nowrap;
 }
 .btnorange {
     background-color: rgb(239, 124, 9);
+    justify-content: left;
+    white-space: nowrap;
 }
 
 .btnpurple {
     background-color: blueviolet;
+    justify-content: left;
+    white-space: nowrap;
 }
 
 .btngreen {
     background-color: rgb(120, 193, 10);
+    justify-content: left;
+    white-space: nowrap;
+
 }
 
-/* .btngreen::before {
-    content: "QUERO APADRINHAR";
-    color: azure;
-    
-     
-} */
 
 
-.btnred::after, .btnorange::after , .btnpurple:after , .btngreen:hover {
-    width:50%;
+
+
+.btnred:hover, .btnorange:hover , .btnpurple:hover , .btngreen:hover {
+    width:35%;
     left: 0;
+    transition: 1.5s;
 
 }
 
@@ -149,12 +155,14 @@ font-size: 25px;
     height: 10vh;
     font-size: 16px;
     color: rgb(195, 28, 28);
+
     
     
 }
 
 .btnDoacoes {
     display: flex;
+    position: relative;
     justify-content: space-between;
     align-items: center;
     padding-left: 10px;
@@ -163,6 +171,7 @@ font-size: 25px;
 
 .btnDoacoes > .btnDoar {
     margin-top: 20px;
+    position: relative;
 }
 
 .btnDoar {
@@ -190,6 +199,7 @@ font-size: 25px;
 .btnVcSabia img {
 justify-content: center;
 height: 12vh;
+
 
 
 }
