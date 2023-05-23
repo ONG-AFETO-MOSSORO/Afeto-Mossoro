@@ -190,8 +190,17 @@ font-size: 25px;
 .btnVcSabia img {
 justify-content: center;
 height: 12vh;
+animation: pulse 1s alternate infinite ease-in-out;
+}
 
+@keyframes pulse {
+    from {
+        transform: scale(1);
+    }
 
+    to {
+        transform:  scale(1.2);
+    }
 }
 
 .sec2 {
