@@ -10,7 +10,7 @@
 }
 
 body {
-    background-color: #A242ED;
+    background-color: white;
 }
 
 .btn-heart {
@@ -35,10 +35,10 @@ header {
     font-family: 'Raleway', sans-serif;
     font-style: normal;
     font-weight: 400;
-    font-size: 52px;
+    font-size: 36px;
     line-height: 75px;
     letter-spacing: 0.1em;
-    color: #F9BD76;
+    color: #A242ED;
 }
 
 .video {

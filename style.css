@@ -67,8 +67,6 @@ font-size: 20px;
     width: 40%;
     padding-top: 50px;
     padding-left: 90px;
-    
-    
 }
 
 .btnColors {
@@ -77,7 +75,6 @@ font-size: 20px;
     gap: 4px;
     align-items: end;
 }
-
 
 
 #direita {
@@ -89,14 +86,11 @@ font-size: 20px;
 #direita #carouselExampleIndicators i {
     position: relative;
     margin-top: 400px;
-    
 }
 
 #direita img {
     width: 100%;
 }
-
-
 
 .btnred, .btnorange , .btnpurple , .btngreen , .btnpink {
     
@@ -125,13 +119,11 @@ font-size: 20px;
     padding-left: 6px;
 }
 
-
 .btnred {
     background-color: rgb(225, 15, 15);
     justify-content: left;
     white-space: nowrap;
 }
-
 
 
 .btnorange {
@@ -171,29 +163,14 @@ font-size: 20px;
 }
 
 
-.txtDivEsquerda {
-    width: 30%;
-    padding-top: 10px;
-    margin-left: 20px;
-    margin-right: 50px;
-    margin-top: -10px;
-    text-align: center;
-    height: 10vh;
-    font-size: 16px;
-    color: rgb(195, 28, 28);
-
-    
-    
-}
-
 .btnDoacoes {
     display: flex;
-        
-}
-
-.btnDoacoes > .btnDoar {
-    margin-top: 20px;
-    position: relative;
+    flex-direction: column;
+    width: 180px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: -30px;
 }
 
 .btnDoar {
@@ -203,11 +180,17 @@ font-size: 20px;
     width: 170px;
     border-radius: 15px;
     cursor: pointer;
-    
-    
 }
 
+.txt-btnDoacoes {
+    color: transparent;
+    transition: 1s;
+}
 
+.txt-btnDoacoes1 {
+    transition: 1s;
+    color: black;
+}
 
 .btnVcSabia {
     height: 10vh;
@@ -218,7 +201,7 @@ font-size: 20px;
 
 .btnVcSabia img {
     justify-content: center;
-    height: 4vh;
+    height: 6vh;
     width: 100%;
     animation: pulse 1s alternate infinite ease-in-out;
     }
