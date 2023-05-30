@@ -180,14 +180,12 @@ font-size: 25px;
 
 .btnDoacoes {
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
+    width: 180px;
+    text-align: center;
+    justify-content: center;
     align-items: center;
-    padding-left: 10px;
-        
-}
-
-.btnDoacoes > .btnDoar {
-    margin-top: 20px;
+    margin-top: -30px;
 }
 
 .btnDoar {
@@ -197,9 +195,42 @@ font-size: 25px;
     width: 170px;
     border-radius: 15px;
     cursor: pointer;
-    
-    
 }
+
+.txt-btnDoacoes {
+    color: transparent;
+    transition: 1s;
+}
+
+.txt-btnDoacoes1 {
+    transition: 1s;
+    color: rgb(195, 28, 28);
+}
+
+a.tooltip {
+    border-bottom: 1px dashed;
+    text-decoration: none;
+  }
+  a.tooltip:hover {
+    cursor: help;
+    position: relative;
+  }
+  a.tooltip span {
+    display: none;
+  }
+  a.tooltip:hover span {
+    border: #666 2px dotted;
+    padding: 5px 20px 5px 5px;
+    display: block;
+    z-index: 100;
+    background: #e3e3e3;
+    left: 0px;
+    margin: 15px;
+    width: 300px;
+    position: absolute;
+    top: 15px;
+    text-decoration: none;
+  }
 
 
 
