@@ -12,7 +12,8 @@
 body {
     background-image: url('./imagens/microphone.png');
     background-repeat:no-repeat;
-      
+    background-size: 600px;
+    background-position: -300px 100px;
 }
 
 
