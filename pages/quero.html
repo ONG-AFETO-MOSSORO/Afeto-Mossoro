@@ -9,17 +9,17 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="quero.css">
+  <link rel="stylesheet" href="../css/quero.css">
 </head>
 <body>
     <header>
         <button class="btn-heart">
-          <a href="">
-            <img src="imagens/coracao afeto.png" alt="" class="heart-logo">
+          <a href="../index.html">
+            <img src="../images/coracao afeto.png" alt="" class="heart-logo">
           </a>
         </button>
         <button class="btn-wpp">
-          <a href="">
+          <a href="https://wa.me/8499025000">
             <i class='bx bxl-whatsapp bx-lg' style='color:#f70101'  ></i>
           </a>
         </button>
@@ -28,5 +28,163 @@
         <h1>QUERO APADRINHAR</h1>
         <p id="p1">E MUDAR A VIDA DE UMA CRIANÇA</p>
       </div>
+
+      <div class="iconInitgroup">
+        <button onclick="openModal()" class="btnOpenModal"><i class='bx bx-group' style='color:#087700'  ></i></button>
+    </div>
+
+        
+    <div id="modal" class="modal modalClose">
+        
+        <form class="formulario">
+            <p class="modal-title">Cadastro de Associados e Voluntários</p>
+            <br><br>
+            
+            <label for="name">Nome completo</label>
+            <input id="name" type="text" name="name" placeholder="Digite seu nome completo" required> 
+            <div class="input-box"></div><br>
+            <label for="cpf">CPF</label>
+            <input id="cpf" type="number" name="cpf" placeholder="Digite seu CPF" required>
+            <div class="input-box"></div><br>
+            <label for="rg">RG</label>
+            <input id="rg" type="number" name="rg" placeholder="Digite seu RG" required>
+            <div class="input-box"></div><br>
+            <label for="email">e-mail</label>
+            <input id="email" type="email" name="email" placeholder="Digite seu email" required>
+            <div class="input-box"></div><br>
+            <label for="cep">CEP</label>
+            <input id="cep" type="number" name="cep" placeholder="Digite seu CEP" required>
+            <div class="input-box"></div><br>
+            <label for="endereço">endereço</label>
+            <input id="endereço" type="text" name="endereço" placeholder="Digite seu endereço completo" required>
+            <div class="input-box"></div><br>
+            <label for="telefone">telefone</label>
+            <input id="telefone" type="number" name="endereço" placeholder="Digite seu numero para contato" required>
+            <div class="input-box"></div><br>
+            <br>
+            <span><i class='bx bx-home-heart' style='color:#f6f3f3'  ></i></span>
+            <br>
+            <p>Qual a sua relação com o tema ADOÇÃO?</p><br>
+
+              <label class="form-check-label">
+              <input type="checkbox" class="form-check-input" name="" id="" value="checkedValue" >
+              Família adotiva (pais e filhos)
+                <br><div class="form-check">
+                  <label class="form-check-label">
+                  <input type="checkbox" class="form-check-input" name="" id="" value="checkedValue">
+                  Pretendente à adoção
+                <br><div class="form-check">
+                  <label class="form-check-label">
+                  <input type="checkbox" class="form-check-input" name="" id="" value="checkedValue">
+                  Profissional com atuação na área (juízes, promotores, psicólogos, assistentes sociais, advogados, etc)
+                <br><div class="form-check">
+                  <label class="form-check-label">
+                  <input type="checkbox" class="form-check-input" name="" id="" value="checkedValue">
+                  Simpatizante da causa
+                <br><div class="form-check">
+                  <label class="form-check-label">
+                  <input type="checkbox" class="form-check-input" name="" id="" value="checkedValue">
+                  Família extensa (parentes próximos: avós, tios)
+                <br><div class="form-check">
+                  <label class="form-check-label">
+                  <input type="checkbox" class="form-check-input" name="" id="" value="checkedValue">
+                  Outro:
+                  <input id="texto" type="text" name="texto" placeholder="..." required>
+            <div class="input-box"></div><br>
+            <hr>
+            <br>
+                    <p>Como deseja colaborar com o GAA AFETO?</p><br>
+                    <input type="radio" name="test" id="" /> Associado (contribuição financeira regular) <br>
+                    <input type="radio" name="test" id="" /> Voluntário (auxiliar no desenvolvimento das ações do Projeto)<br>
+                    <input type="radio" name="test" id="" /> Associado e voluntário <br>
+            <br><br>
+            <hr><br>
+            <p>Formação Acadêmica / Atividade profissional / Habilidades
+              (nesse espaço além da sua formação acadêmica ou ramo de atuação, você poderá citar algumas habilidades, tais como: música, teatro, artesanato)</p>
+              <br>
+              <input id="formacao" type="text" name="formacao" placeholder="Sua resposta" required>
+            <div class="input-box"></div><br>
+            <br>
+            <hr>
+            <p>Como você acredita que pode contribuir como voluntário(a):</p>
+            <br>
+            <label class="form-check-label">
+              <input type="checkbox" class="form-check-input" name="" id="" value="checkedValue" >
+              Organização de eventos
+                <br><div class="form-check">
+                  <label class="form-check-label">
+                  <input type="checkbox" class="form-check-input" name="" id="" value="checkedValue" >
+                  Fotografia e filmagem
+                <br><div class="form-check">
+                  <label class="form-check-label">
+                  <input type="checkbox" class="form-check-input" name="" id="" value="checkedValue" >
+                  Comunicação e midias digitais
+                <br><div class="form-check">
+                  <label class="form-check-label">
+                  <input type="checkbox" class="form-check-input" name="" id="" value="checkedValue" >
+                  Recreação com as criaças
+                <br><div class="form-check">
+                  <label class="form-check-label">
+                  <input type="checkbox" class="form-check-input" name="" id="" value="checkedValue" >
+                  Conhecimentos jurídicos
+                <br><div class="form-check">
+                  <label class="form-check-label">
+                  <input type="checkbox" class="form-check-input" name="" id="" value="checkedValue" >
+                  Conhecimentos de psicologia
+                <br><div class="form-check">
+                  <label class="form-check-label">
+                  <input type="checkbox" class="form-check-input" name="" id="" value="checkedValue" >
+                  Atividades administrativas
+                <br><div class="form-check">
+                  <label class="form-check-label">
+                  <input type="checkbox" class="form-check-input" name="" id="" value="checkedValue" >
+                  Informática
+                <br><div class="form-check">
+                  <label class="form-check-label">
+                  <input type="checkbox" class="form-check-input" name="" id="" value="checkedValue" >
+                  Ações em instituições de acolhimento
+                <br><div class="form-check">
+                  <label class="form-check-label">
+                  <input type="checkbox" class="form-check-input" name="" id="" value="checkedValue" >
+                  Reforço escolar para crianças e jovens
+                <br><div class="form-check">
+                  <label class="form-check-label">
+                  <input type="checkbox" class="form-check-input" name="" id="" value="checkedValue" >
+                  Outro:
+                  <input id="texto" type="text" name="texto" placeholder="..." required>
+                  <br><br><hr>
+                  <p>Sugestões, dúvidas, críticas e mensagens de afeto..</p>
+                  <br>
+                  <input id="sugestoes" type="text" name="sugestoes" placeholder="Sua resposta" required>
+                <div class="input-box"></div><br>
+                <hr><br>
+
+
+
+
+            <label for="password">Senha</label><br>
+            <input id="password" type="password" name="password" placeholder="senha" required><br>
+                    
+            <label for="password">confirmar senha</label><br>
+            <input id="password" type="password" name="confirmpassword" placeholder="confirmar senha" required>
+            <br><br><br>
+                        
+            <button type="submit" onclick="openModal()" class="btnCloseModal">ENVIAR</button>
+                    </form>
+            
+            
+                    
+       
+       
+    
+        </div>
+       
+
+    </div>
+
+
+   <script src="../js/apadrinhar.js"></script>
+
+
 </body>
 </html>
