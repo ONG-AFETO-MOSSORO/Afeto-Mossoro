@@ -1,155 +1,82 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Afeto Mossoró</title>
-
-  <style>
-    .carousel-inner {
-      width: 100%;
-      height: 100%;
-    }
-  </style>
-
-
-  <link rel="stylesheet " href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
-  <link rel="stylesheet" href="./css/style.css">
-  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;400;700&display=swap" rel="stylesheet">
-
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vozes da Adoção</title>
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="vozes.css">
 </head>
-<header id="bgPrincipal">
-
-  <img class="logo" src="./images/logo.png" alt="">
-  <p class="tituloHeader">GAA AFETO MOSSORÓ</p>
-
-
-</header>
-
-<body id="bgPrincipal">
-  <div class="menuFirst">
-    <div>
-      <button type="button">QUEM SOMOS?</button>
-      <button class="btnVcSabia">
-        <img src="./images/iconheart.png" alt="icone heart btn" style="vertical-align: middle;">
-      </button>
-    </div>
-
-    <div class="btnMidia">
-      <button type="button"><i class='bx bxl-instagram ' style='color:#e42a2a'></i></button>
-      <button type="button"><i class='bx bxl-facebook-circle ' style='color:#e42a2a'></i></button>
-      <button type="button"><i class='bx bxs-envelope ' style='color:#e42a2a'></i></button>
-      <button type="button"><i class='bx bxs-camera ' style='color:#e42a2a'></i></button>
-      <button type="button"><i class='bx bxl-whatsapp ' style='color:#e42a2a'></i></button>
-
-
-    </div>
-
-  </div>
-  <section class="sec1">
-
-
-    <div id="esquerda">
-      <div class="btnColors">
-        <a href=""></a>
-        <div class="btnred"><i class='bx bx-heart-circle' style='color:#f4f2f2'> <span
-              style="font-family:'Raleway', sans-serif ">&#160 Vozes da adoção</span></i></div>
-        <a href=""></a>
-        <div class="btnorange"><i class='bx bx-calendar ' style='color:#f4f2f2'><span
-              style="font-family:'Raleway', sans-serif ">&#160 Agenda</span></i></div>
-        <a class="btnpurple" href="./pages/youtube.html">
-          <div><i class='bx bxl-youtube ' style='color:#f4f2f2'><span style="font-family:'Raleway', sans-serif ">&#160
-                Youtube</span></i></div>
-        </a>
-        <div class="btngreen"><i class='bx bxs-group' style='color:#f4f2f2'><span
-              style="font-family:'Raleway', sans-serif ">&#160 Quero Apadrinhar</span></i></div>
-        <div class="btnpink"><i class='bx bx-child' style='color:#f4f2f2'><span
-              style="font-family:'Raleway', sans-serif ">&#160 Guia de Adoção</span></i></div>
-
-
-      </div>
-
-
-      <div class="txtDivEsquerda">
-        <p id="txtDivESquerda" class="txtDivEsquerda"></p> <br>
-      </div>
-
-      <div class="btnDoacoes">
-        <p class="txt-btnDoacoes" id="doar">Já teve vontade de ajudar um projeto voluntário mas ficou sem saber o que
-          poderia
-          fazer?</p><br>
-        <button class="btnDoar" onmouseover="showText()" onmouseleave="hideText()">Como posso doar?</button>
-      </div>
-
-
-
-    </div>
-
-
-
-    <div id="direita">
-      <div id="carouselExampleIndicators" class="carousel slide w-100">
-        <div class="carousel-indicators" style=" width: 20% ; margin-bottom: 40px; margin-left: 350px;">
-          <button type="button" data-bs-target="" data-bs-slide-to="0" class="active" aria-current="true"
-            aria-label="Slide 1"></button>
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
-            aria-label="Slide 2"></button>
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
-            aria-label="Slide 3"></button>
-        </div>
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src="/images/imgkids3.jpg" class="d-block" alt="imagem de crianças brincando">
-          </div>
-          <div class="carousel-item">
-            <img src="./images/imgkid2.jpg" class="d-block" alt="imagem de crianças brincando">
-          </div>
-          <div class="carousel-item">
-            <img src="./images/imgkids1.jpg" class="d-block" alt="imagem de crianças brincando">
-          </div>
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
-          data-bs-slide="prev">
-          <span class=" " aria-hidden="true"><i class='bx bxs-left-arrow-circle bx-md' style='color:#ffffff'></i></span>
-          <!-- <span class="visually-hidden">Previous</span> -->
+<body>
+    <header>
+        <button class="btn-heart">
+          <a href="index.html">
+            <img src="./imagens/coracao afeto.png" alt="" class="heart-logo">
+          </a>
         </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
-          data-bs-slide="next">
-          <span class=" "><i class='bx bxs-right-arrow-circle bx-md' style='color: white;'></i></span>
-          <!-- <span class="visually-hidden">next</span> -->
+        <button class="btn-wpp">
+          <a href="https://wa.me/8499025000">
+            <i class='bx bxl-whatsapp bx-lg' style='color:#f70101'  ></i>
+          </a>
         </button>
+    </header>
+    <div class="vozes">
+        <p id="p1">CONHEÇA ALGUNS DEPOIMENTOS</p>
+        <h1>VOZES DA ADOÇÃO</h1>
+        
       </div>
-    </div>
 
-  </section>
-  <br><br>
-  <section class="sec2">
-    <br>
-    <div class="tituloSec2">O que é um grupo de apoio à adoção (GAA)?</div>
-    <p class="txtSec2">Os GAA são grupos formados pela sociedade civil que trabalham voluntariamente para a divulgação
-      de uma nova cultura para as adoções.</p>
+      <div class="div1vozes">
 
-    <div class="tituloSec2">Quem pode fazer parte de um Grupo de Apoio à Adoção?</div>
-    <p class="txtSec2">Não precisa participar apenas os que pensam em adotar ou já adotaram. Apesar de os que já
-      passaram pelo processo da adoção serem muito importantes nessa discussão, podem também participar todos os que
-      querem colaborar.</p>
+            
+        <div class="divvozes">
+            <i class='bx bxs-microphone-alt' style='color:#efa4a4' onclick="player()" ><audio id="player" src="ÁUDIO - ANDRÉ.mp3"></audio></i>
+            <p class="nomevoz">Rafael</p>
+            <audio id="player" controls="controls">
+              <source src="ÁUDIO - ANDRÉ.mp3" type="audio/mp3" />
+            </audio>
 
-  </section>
+            <i class='bx bxs-microphone-alt' style='color:#efa4a4' onclick="player()" ><audio id="player" src="ÁUDIO - MICHELLE.mp3"></audio></i>
+            <p class="nomevoz">Camila</p>
+            <audio id="player" controls="controls">
+              <source src="ÁUDIO - MICHELLE.mp3" type="audio/mp3" />
+            </audio>
+            </div>
 
+          <div class="divvozes">
+                <i class='bx bxs-microphone-alt' style='color:#efa4a4'  ></i>
+                <p class="nomevoz">Ana Clara</p>
+                <audio id="player" controls="controls">
+                  <source src="ÁUDIO - RAFAEL 03.mp3" type="audio/mp3" />
+                </audio>
 
-  <script src="./js/btndoar.js"></script>
+                <i class='bx bxs-microphone-alt' style='color:#efa4a4'  ></i>
+                <p class="nomevoz">Diego</p>
+                <audio id="player" controls="controls">
+                  <source src="ÁUDIO - SARA.mp3" type="audio/mp3" />
+            </div>
 
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
-    crossorigin="anonymous"></script>
+            <div class="divvozes">
+                <i class='bx bxs-microphone-alt' style='color:#efa4a4'  ></i>
+                <p class="nomevoz">Lucas</p>
+                <audio id="player" controls="controls">
+                  <source src="ÁUDIO - SUZANA.mp3" type="audio/mp3" />
+                
+                <i class='bx bxs-microphone-alt' style='color:#efa4a4'  ></i>
+                <p class="nomevoz">Laura</p>
+                <audio id="player" controls="controls">
+                  <source src="ÁUDIO - VANESSA.mp3" type="audio/mp3" />
+                </div>
+                
+      </div>
 
+      <div class="divresumo">
+        <p class="txtresumo">"Vozes da Adoção" foi um evento organizado pelo Grupo AFETO e realizado no Partage Shopping Mossoró durante a semana nacional da adoção de 2018. Foram seis ambientes preparados para que as pessoas ouvissem histórias emocionantes que revelam diferentes facetas do universo da adoção.
+
+            Em virtude do grande sucesso da iniciativa, e para que estas histórias continuem a emocionar e ajudar as pessoas, todos os que cederam suas vozes e histórias autorizaram sua publicação neste site. Portanto, convidamos você a ouvir e sentir cada uma destas histórias agora mesmo.</p>
+      </div>
+      
 </body>
-
 </html>
