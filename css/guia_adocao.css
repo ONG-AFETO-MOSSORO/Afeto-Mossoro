@@ -46,6 +46,10 @@ h1 {
     align-items: center;
 }
 
+footer {
+    position: relative;
+}
+
 footer div {
     display: flex;
     align-items: center;
@@ -54,6 +58,15 @@ footer div {
 
 footer div img {
     width: 180px;
+}
+
+footer::after {
+    content: "";
+    z-index: 1;
+    width: 100%;
+    height: 4px;
+    position: absolute;
+    background-color: #F19696;
 }
 
 /*second-section*/
@@ -96,20 +109,64 @@ footer div img {
     bottom: -15px;
 }
 
-.sections header h2 {
+.sections header h2, .sections div h2 {
     font-family: 'Squada One', cursive;
+    text-transform: uppercase;
+    color: #312E2E;
     font-size: 65px;
+}
+
+.sections div h2 {
+    font-size: 50px;
 }
 
 .sections div {
     margin-top: 200px;
     display: flex;
     justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+
+.sections a {
+    text-decoration: none;
+    font-size: 36px;
+    transition-duration: 200ms;
+    color: #F19696;
+    line-height: 60px;
+}
+
+.sections a:hover {
+    color:  #312E2E;
+}
+
+.sections div img {
+    width: 180px;
+    height: 180px;
 }
 
 .sections div p {
-    width: 300px;
+    font-size: 2rem;
+    width: 60%;
     text-align: center;
-    line-height: 40px;
+    line-height: 60px;
     font-family: 'Spline Sans', sans-serif;
+}   
+
+.sections div ul {
+    margin-top: 1rem;
+    list-style-image: url("../images/check.png");
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.sections div ul li {
+    font-size: 32px;
+}
+
+.sections div ul li a {
+    line-height: 60px;
+
 }
