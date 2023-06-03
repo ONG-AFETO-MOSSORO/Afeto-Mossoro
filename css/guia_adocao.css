@@ -72,7 +72,11 @@ footer::after {
 /*second-section*/
 
 .sections {
- background-color: #fff;
+ background-image: url("../images/background.png");
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
+ background-attachment: fixed;
 }
 
 .sections header {
@@ -84,7 +88,7 @@ footer::after {
 }
 
 .sections .heart-icon {
-    height: 6rem;
+    height: 5rem;
     width: 8rem;
     z-index: 2;
 }
@@ -114,14 +118,15 @@ footer::after {
     text-transform: uppercase;
     color: #312E2E;
     font-size: 65px;
+    text-align: center;
 }
 
 .sections div h2 {
-    font-size: 50px;
+    font-size: 2rem;
 }
 
 .sections div {
-    margin-top: 200px;
+    margin-top: 100px;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -147,7 +152,7 @@ footer::after {
 }
 
 .sections div p {
-    font-size: 2rem;
+    font-size: 1.5rem;
     width: 60%;
     text-align: center;
     line-height: 60px;
