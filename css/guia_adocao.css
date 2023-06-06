@@ -71,7 +71,7 @@ footer::after {
 
 /*second-section*/
 
-.sections {
+body {
  background-image: url("../images/background.png");
  background-position: center;
  background-repeat: no-repeat;
@@ -136,7 +136,7 @@ footer::after {
 
 .sections a {
     text-decoration: none;
-    font-size: 36px;
+    font-size: 2rem;
     transition-duration: 200ms;
     color: #F19696;
     line-height: 60px;
@@ -174,4 +174,82 @@ footer::after {
 .sections div ul li a {
     line-height: 60px;
 
+}
+
+/* Responsive Styles */
+@media screen and (max-width: 768px) {
+    h1 {
+        font-size: 60px;
+    }
+
+    .first-section {
+        padding: 10px;
+    }
+
+    .content {
+        margin: 5px;
+    }
+
+    .content img {
+        width: 300px;
+    }
+
+    .sections header h2,
+    .sections div h2 {
+        font-size: 40px;
+    }
+
+    .sections div ul {
+        list-style: none;
+    }
+
+    .sections div img {
+        width: 120px;
+        height: 120px;
+    }
+
+    .sections div p {
+        width: 80%;
+        font-size: 1.2rem;
+        line-height: 40px;
+    }
+
+    .sections ul li {
+        font-size: 15px;
+        text-align: center;
+    }
+    .sections div a {
+        font-size: 15px;
+        text-align: center;
+    }
+
+    .sections div ul li a {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    h1 {
+        font-size: 40px;
+    }
+
+    .sections header h2,
+    .sections div h2 {
+        font-size: 30px;
+    }
+
+    .sections div img {
+        width: 100px;
+        height: 100px;
+    }
+
+    .sections div p {
+        width: 90%;
+        font-size: 1rem;
+        line-height: 30px;
+    }
+
+    .sections div ul li {
+        font-size: 20px;
+    }
 }
