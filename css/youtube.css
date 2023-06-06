@@ -10,7 +10,7 @@
 }
 
 body {
-    background-color: #A242ED;
+    background-color: #fff;
 }
 
 .btn-heart {
@@ -38,7 +38,7 @@ header {
     font-size: 52px;
     line-height: 75px;
     letter-spacing: 0.1em;
-    color: #F9BD76;
+    color: #aa14cc;
 }
 
 .video {
