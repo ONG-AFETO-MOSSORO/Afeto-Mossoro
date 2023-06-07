@@ -35,7 +35,7 @@ header {
     font-family: 'Raleway', sans-serif;
     font-style: normal;
     font-weight: 400;
-    font-size: 36px;
+    font-size: 32px;
     line-height: 75px;
     letter-spacing: 0.1em;
     color: #75B91D;
@@ -47,6 +47,18 @@ header {
     font-size: 18px;
 }
 
+.iconInitgroup {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    margin-top: 10%;
+}
+
+.iconInitgroup i {
+    font-size: 170px;
+
+}
+/* 
 .modal {
     position: relative;
     width: 400px;
@@ -103,18 +115,6 @@ header {
     color: white;
 }
 
-.iconInitgroup {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-}
-
-.iconInitgroup i {
-    font-size: 170px;
-
-}
-
 .modal-title {
     font-size: 20px;
     color: rgb(130, 215, 130);
@@ -124,4 +124,4 @@ header {
     border: none;
     background-color: transparent;
     cursor: pointer;
-}
+} */

@@ -1,0 +1,56 @@
+* {
+    padding: 0;
+    margin: 0;
+    /* outline: solid red; */
+}
+
+.heart-logo {
+    width: 58px;
+    height: 69px;
+}
+
+body {
+    background-color: #fff;
+}
+
+.btn-heart {
+    background-color: transparent;
+    border: none;
+}
+
+.btn-wpp {
+    background-color: transparent;
+    border: none;
+}
+
+header {
+    margin-top: 24px;
+    margin-left: 128px;
+}
+
+.div-calendar {
+    margin-top: 50px;
+    height: 75px;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 75px;
+    letter-spacing: 0.1em;
+    color: #f35709;
+}
+
+.subtitulo-calendar {
+    font-size: 18px;
+    margin-top: -20px;
+}
+
+.icon-calendar {
+    display: flex;
+    justify-content: center;
+    font-size: 300px;
+    color: #473f3a;
+    margin-top: 10%;
+    
+}

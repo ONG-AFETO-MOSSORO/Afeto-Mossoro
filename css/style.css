@@ -443,8 +443,14 @@ font-size: 25px;
     left: 0;
     transition: 1.5s;
 }
-.btnred:hover, .btngreen:hover , .btnpink:hover {
+.btnred:hover, .btnpink:hover {
     width:62%;
+    left: 0;
+    transition: 1.5s;
+}
+
+.btngreen:hover {
+    width:72%;
     left: 0;
     transition: 1.5s;
 }
@@ -568,5 +574,10 @@ animation: pulse 1s alternate infinite ease-in-out;
     margin-top: 2%;
     font-size: 25px;
 
+}
 
+.btnComissoes {
+    text-decoration: none;
+    color: rgb(171, 11, 11);
+    font-size: 18px;
 }
