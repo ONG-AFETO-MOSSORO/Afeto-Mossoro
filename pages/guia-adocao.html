@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="pt-br">
 
@@ -6,11 +7,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/guia_adocao.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
     <title>Guia para adoção</title>
 </head>
 
 <body>
-    <section>
+    <section class="first-section">
         <header>
             <button class="btn-heart">
                 <a href="../index.html">
@@ -18,15 +23,14 @@
                 </a>
             </button>
             <button class="btn-wpp">
-                <a href="">
+                <a href="https://api.whatsapp.com/send/?phone=8499025000&text&type=phone_number&app_absent=0">
                     <i class='bx bxl-whatsapp bx-lg' style='color:#f70101'></i>
                 </a>
             </button>
         </header>
         <section class="content">
             <h1>Guia para adoção</h1>
-            <img src="../images/Rectangle 14.png" alt="Imagem de um campo de pesquisa">
-            <img src="../images/lupa.png" alt="imagem de uma lupa">
+            <img id="search" src="../images/search.png" alt="Imagem de um campo de pesquisa" />
         </section>
         <footer>
             <div>
@@ -34,6 +38,527 @@
             </div>
         </footer>
     </section>
+    <section class="sections">
+        <header>
+            <img class="heart-icon" src="../images/heart-solid-204 1.png" alt="icone de coração">
+            <h2>Requisitos para doar</h2>
+        </header>
+        <div>
+            <img src="../images/edit.png" alt="edit image">
+            <p>O Estatuto da Criança e do Adolescente estabelece alguns requisitos para a adoção.</p>
+        </div>
+        <footer>
+            <div>
+                <img src="../images/logo.png" alt="Logo afeto">
+            </div>
+        </footer>
+    </section>
+    <section class="sections">
+        <header>
+            <img class="heart-icon" src="../images/heart-solid-204 1.png" alt="icone de coração">
+            <h2>Idade</h2>
+        </header>
+        <div>
+            <img src="../images/edit.png" alt="edit image">
+            <p>O Adotante deve ser maior de 18 anos e ter no mínimo 16 anos de diferença entre o adotante e o adotado.
+            </p>
+        </div>
+        <footer>
+            <div>
+                <img src="../images/logo.png" alt="Logo afeto">
+            </div>
+        </footer>
+    </section>
+    <section class="sections">
+        <header>
+            <img class="heart-icon" src="../images/heart-solid-204 1.png" alt="icone de coração">
+            <h2>Estado civil</h2>
+        </header>
+        <div>
+            <img src="../images/edit.png" alt="edit image">
+            <p>Pessoa solteira, casal homoafetivo, casal que não é casado no papel, mas tem união estável, casal hétero,
+                qualquer pessoa pode ser mãe ou pai por adoção desde que tenha condições e que esteja preparada.</p>
+        </div>
+        <footer>
+            <div>
+                <img src="../images/logo.png" alt="Logo afeto">
+            </div>
+        </footer>
+    </section>
+    <section class="sections">
+        <header>
+            <img class="heart-icon" src="../images/heart-solid-204 1.png" alt="icone de coração">
+            <h2>Renda e estado civil</h2>
+        </header>
+        <div>
+            <img src="../images/edit.png" alt="edit image">
+            <p>Estar casado e ter uma renda estável não são requisitos para a adoção, isso porque o juiz e a equipe
+                técnica de avaliadores levarão em conta todo o pretexto dos pretendentes. Com certeza o fato de ter
+                condições de oferecer uma estrutura material e ter com quem dividir a parentalidade é um fator
+                importante a ser levado em conta , mas serão analisados:</p>
+            <ul>
+                <li>Motivação dos adotantes</li>
+                <li>Condições de oferecer suporte afetivo</li>
+                <li>Condições emocionais</li>
+                <li>Entre outros</li>
+            </ul>
+        </div>
+        <footer>
+            <div>
+                <img src="../images/logo.png" alt="Logo afeto">
+            </div>
+        </footer>
+    </section>
+    <section class="sections">
+        <header>
+            <img class="heart-icon" src="../images/heart-solid-204 1.png" alt="icone de coração">
+            <h2>Entrevistas</h2>
+        </header>
+        <div>
+            <img src="../images/edit.png" alt="edit image">
+            <p>São parte importante do processo de habilitação, elas são necessárias para assegurar que os pretendentes
+                tem motivações e estrutura necessárias para serem pais, e assim, minimizar os riscos de não adaptação
+                das duas partes.</p>
+        </div>
+        <footer>
+            <div>
+                <img src="../images/logo.png" alt="Logo afeto">
+            </div>
+        </footer>
+    </section>
+    <section class="sections">
+        <header>
+            <img class="heart-icon" src="../images/heart-solid-204 1.png" alt="icone de coração">
+            <h2>Primeiros passos para adoção</h2>
+        </header>
+        <div>
+            <img src="../images/edit.png" alt="edit image">
+            <h2>Cópias</h2>
+            <ul>
+                <li>Identidade</li>
+                <li>Cpf</li>
+                <li>Comprovante de residência</li>
+            </ul>
+            <h2>Cópias autenticadas</h2>
+            <p>Certidão de Casamento ou União Estável (se casado) ou Certidão de Nascimento (se solteiro).</p>
+            <h2>Documentos originais</h2>
+            <ul>
+                <li>Certidão negativa civil,fiscal e criminal da Justiça Federal.</li>
+                <li>Certidão de antecedentes criminais da Justiça Estadual.</li>
+                <li>Certidão negativa de Ação CIvil da Justiça Estadual.</li>
+                <li>Atestado de sanidade física e mental.</li>
+            </ul>
+        </div>
+        <footer>
+            <div>
+                <img src="../images/logo.png" alt="Logo afeto">
+            </div>
+        </footer>
+    </section>
+    <section class="sections">
+        <header>
+            <img class="heart-icon" src="../images/heart-solid-204 1.png" alt="icone de coração">
+            <h2>Primeiros passos para adoção</h2>
+        </header>
+        <div>
+            <img src="../images/edit.png" alt="edit image">
+            <h2>Pré-cadastro cnj</h2>
+            <p>Após reunir a documentação faça o pré-cadastro no site do Conselho Nacional de Justiça</p>
+            <a href="https://www.cnj.jus.br/sna/indexPrecadastro.jsp">Cnj.jus.br</a>
+            <h2>E-mail com documentação para a vara da infância de mossoró</h2>
+            <p>Envie a documentação para o e-mail da vara da infância de Mossoró:
+                <strong>antoniofernandes@tjrn.jus.br</strong>
+            </p>
+        </div>
+        <footer>
+            <div>
+                <img src="../images/logo.png" alt="Logo afeto">
+            </div>
+        </footer>
+    </section>
+    <section class="sections">
+        <header>
+            <img class="heart-icon" src="../images/heart-solid-204 1.png" alt="icone de coração">
+            <h2>Links úteis</h2>
+        </header>
+        <div>
+            <ul>
+                <li><a href="http://www.cjf.jus.nr/cjf/certidao-negativa">Certidão negativa civil</a></li>
+                <li><a
+                        href="http://servicos.receita.fazenda.gov.br/Servicos/certidao/CNDConjuntalnter/InformaNICertidao.asp?tipo=2">Certidao
+                        Negativa Fiscal</a></li>
+                <li><a href="http://certidao.jfrn.jus.br/certidaolnter/emissaocertidao.aspx">Certidão Negativa Criminal
+                        da justiça Federal</a></li>
+                <li><a href="http://pje.tjrn.jus.br/certidãoPjeWeb/">Certidão de antecedentes criminais da Justiça
+                        Estadual</a></li>
+            </ul>
+            <img src="../images/edit.png" alt="edit image">
+            <h2>Certidões</h2>
+        </div>
+        <footer>
+            <div>
+                <img src="../images/logo.png" alt="Logo afeto">
+            </div>
+        </footer>
+    </section>
+    <section class="sections">
+        <header>
+            <img class="heart-icon" src="../images/heart-solid-204 1.png" alt="icone de coração">
+            <h2>Perguntas frequentes</h2>
+        </header>
+        <div>
+            <div>
+                <h2>O que é adoção</h2>
+                <p>Adoção é a colocação da criança ou adolescente
+                    em uma nova família, chamada família substituto. O
+                    menor passa a ser filho dessa família com todos os
+                    direitos pertinentes a um filho. A adoção é
+                    irrevogável.</p>
+                <h2>Quem pode adotar?</h2>
+                <p>Podem adotar os maiores de 18 anos,
+                    independentemente de estado civil, desde que o
+                    adotante, seja pelo menos dezesseis anos mais velho
+                    do que o adotando. Os divorciados e os
+                    judicialmente separados também poderão adotar
+                    conjuntamente, contando que acordem sobre a
+                    guarda e o regime de visitas, e desde que o estágio
+                    de convivência tenha sido iniciado na constância da
+                    sociedade conjugal.</p>
+            </div>
+        </div>
+        <footer>
+            <div>
+                <img src="../images/logo.png" alt="Logo afeto">
+            </div>
+        </footer>
+    </section>
+    <section class="sections">
+        <header>
+            <img class="heart-icon" src="../images/heart-solid-204 1.png" alt="icone de coração">
+            <h2>Perguntas frequentes</h2>
+        </header>
+        <div>
+            <h2>Casais homoafetivos podem adotar uma criança de forma conjunta?</h2>
+            <p>Sim. Atualmente, não nenhum impedimento legal
+                para a adoção por casais homoafetivos.
+                Terminado o processo, na certidão de nascimento
+                constará o nome dos dois pais ou das duas mães.</p>
+            <h2>A adoção é um processo caro e demorado?</h2>
+            <p>Não, embora no requerimento de inscrição conste um
+                espaço para se colocar o salário, esta informação,
+                não estabelece nenhum tipo de critério de seleção
+                para a adoção, sendo utilizado apenas como
+                referência para relatórios estatísticos.</p>
+            <h2>É necessária uma renda mínima?</h2>
+            <p>Não, embora no requerimento de inscrição conste um
+                espaço para se colocar o salário, esta informação,
+                não estabelece nenhum tipo de critério de seleção
+                para a adoção, sendo utilizado apenas como
+                referência para relatórios estatísticos.</p>
+        </div>
+        <footer>
+            <div>
+                <img src="../images/logo.png" alt="Logo afeto">
+            </div>
+        </footer>
+    </section>
+    <section class="sections">
+        <header>
+            <img class="heart-icon" src="../images/heart-solid-204 1.png" alt="icone de coração">
+            <h2>Perguntas frequentes</h2>
+        </header>
+        <div>
+            <h2>Quanto tempo demora para um casal cadastrado conseguir adotar?</h2>
+            <p>Depende exclusivamente do Perfil da Criança que
+                se pretende adotar, pois quanto mais específico for
+                este perfil, maior a dificuldade de encontrá-la. Se,
+                no entanto, existir uma criança com o perfil do
+                cadastrado, ele será chamado à equipe técnica e,
+                de lá, poderá ser encaminhado ao abrigo para conhecer a criança e, no caso de aceitá-la, inicia-se o
+                processo de adoção.</p>
+            <h2>Tenho direito à licença-maternidade por adoção?</h2>
+            <p>Sim. Em 2013, foi aprovada uma lei que dá direito à
+                licença maternidade por adotantes. Também há
+                jurisprudência para os casos em que a licença
+                paternidade é ampliada para 4 meses quando a
+                criança é adotado só por um homem ou por um
+                casal homoafetivo.</p>
+        </div>
+        <footer>
+        </footer>
+    </section>
+    <section class="sections">
+        <header>
+            <img class="heart-icon" src="../images/heart-solid-204 1.png" alt="icone de coração">
+            <h2>Perguntas frequentes</h2>
+        </header>
+        <div>
+            <h2>Quanto tempo demora para um casal cadastrado conseguir adotar?</h2>
+            <p>Depende exclusivamente do Perfil da Criança que
+                se pretende adotar, pois quanto mais específico for
+                este perfil, maior a dificuldade de encontrá-la. Se,
+                no entanto, existir uma criança com o perfil do
+                cadastrado, ele será chamado à equipe técnica e,
+                de lá, poderá ser encaminhado ao abrigo para conhecer a criança e, no caso de aceitá-la, inicia-se o
+                processo de adoção.</p>
+            <h2>Tenho direito à licença-maternidade por adoção?</h2>
+            <p>Sim. Em 2013, foi aprovada uma lei que dá direito à
+                licença maternidade por adotantes. Também há
+                jurisprudência para os casos em que a licença
+                paternidade é ampliada para 4 meses quando a
+                criança é adotado só por um homem ou por um
+                casal homoafetivo.</p>
+            <h2>Posso adotar mais de uma criança?</h2>
+            <p>Não só pode, como se estimula a adoção de mais de
+                uma criança, especialmente irmãos biológicos por
+                uma mesma família.</p>
+        </div>
+        <footer>
+        </footer>
+    </section>
+    <section class="sections">
+        <header>
+            <img class="heart-icon" src="../images/heart-solid-204 1.png" alt="icone de coração">
+            <h2>Perguntas frequentes</h2>
+        </header>
+        <div>
+            <h2>Posso visitar as crianças nas instituições de acolhimento antes de me inscrever para a adoção?</h2>
+            <p>Cada acolhimento tem suas regras de visitação.
+                Entretanto, esse encontro pode causar a expectativa
+                de adoção em ambas as partes. Dessa forma, podem
+                ocorrer algumas frustrações. Caso a pessoa ou o
+                casal não estejam cadastrados, ainda não estarão
+                aptos a adotar. Além disso, nem todas as crianças
+                institucionalizadas estão aptas para adoção, visto que
+                podem estar cumprindo de medida protetiva ou não
+                terem sido destituídas do poder familiar. Portanto, o
+                judiciário procura evitar a visitação de crianças que
+                não estão aptas à adoção.</p>
+            <h2>O que é poder familiar?</h2>
+            <p>São os direitos e deveres dos pais, relativos aos filhos
+                menores de 18 anos. Visa garantir o direito e dever
+                de criação, educação, assistência da criança e do
+                adolescente. Tanto a família biológica quanto a
+                família substituta podem perder o poder familiar se
+                infringirem leis do Estatuto da Criança e do
+                Adolescente, como em casos de maus-tratos,
+                exposição da criança a situação e abuso sexual, etc.</p>
+        </div>
+        <footer>
+        </footer>
+    </section>
+    <section class="sections">
+        <header>
+            <img class="heart-icon" src="../images/heart-solid-204 1.png" alt="icone de coração">
+            <h2>Perguntas frequentes</h2>
+        </header>
+        <div>
+            <h2>O que é "adoção tardia"?</h2>
+            <p>A expressão "adoção tardia" é usada para fazer
+                referência à adoção de crianças maiores ou de
+                adolescentes. Remete a ideia de uma adoção
+                fora do tempo "adequado", reforçando assim o
+                preconceito de que ser adotado é prerrogativa
+                de recém-nascido e bebês. Quando se decide
+                por sua adoção, proporcionar à criança tempo e
+                espaço para o processamento psíquico destas
+                mudanças torna-se fundamental, pois as crianças
+                maiores que esperam pela adoção trazem
+                consigo histórias de vínculos e rompimentos que
+                merecem ser cuidadosamente observados.</p>
+            <h2>O que é guarda e tutela?</h2>
+            <p>Guarda é uma medida que visa proteger crianças e
+                adolescentes que não podem ficar com seus pais,
+                provisoriamente, ou em definitivo. É a posse legal,
+                que os cuidadores adquirem, a partir da convivência
+                com crianças/adolescentes. A guarda confere
+                responsabilidade pela assistência material, afetiva e
+                educacional de uma pessoa até 18 anos de idade. É uma medida onde o poder familiar e os vínculos com
+                a família de origem ficam preservados.</p>
+            <p>Já a tutela
+                corresponde ao poder instituído a um adulto para ser o representante legal da criança ou adolescente
+                menor de 18 anos, na falta dos pais - devido à
+                destituição do poder familiar ou falecimento - para
+                gerir a vida e administrar seus bens.</p>
+        </div>
+        <footer>
+        </footer>
+    </section>
+    <section class="sections">
+        <header>
+            <img class="heart-icon" src="../images/heart-solid-204 1.png" alt="icone de coração">
+            <h2>Perguntas frequentes</h2>
+        </header>
+        <div>
+            <h2>Os avós podem adotar os netos?</h2>
+            <p>Não. A lei não permite a adoção por ascendentes
+                (avós, bisavós, etc.), nem adoção entre irmãos.</p>
+            <h2>Posso adotar o filho do meu companheiro?</h2>
+            <p>Sim. Se no registro da criança só tiver registrado o
+                nome do companheiro (a), o adotante deverá comparecer a Equipe Técnica da 1a Vara da Infância e da
+                Juventude, onde um servidor irá fazer
+                requerimento que será assinado pelo adotante da
+                criança. Porém, se o filho (a) estiver registrado (a),
+                também, no nome do ex-companheiro (a), o
+                processo deverá ser instaurado com a assistência de
+                um advogado, que por sua vez requererá que o ex-companheiro (a) seja ouvido (a) sobre a concordância da
+                adoção; se este não for
+                encontrado, deverá ser feita sua citação através de edital. Caso compareça e não concorde, o filho só
+                poderá ser adotado pelo (a) companheiro (a) se
+                houver a destituição do pátrio poder.</p>
+        </div>
+        <footer>
+        </footer>
+    </section>
+    <section class="sections">
+        <header>
+            <img class="heart-icon" src="../images/heart-solid-204 1.png" alt="icone de coração">
+            <h2>Perguntas frequentes</h2>
+        </header>
+        <div>
+            <h2>Se durante a tramitação do processo de adoção o adotante falecer, o processo é extinto?</h2>
+            <p>Não. O art. 42, § 5o, diz o seguinte: “A adoção poderá
+
+                ser deferida ao adotante que, após inequívoca
+                manifestação de vontade, vier a falecer no curso do
+                procedimento, antes de prolatada a sentença”.</p>
+        </div>
+        <footer>
+        </footer>
+    </section>
+    <section class="sections">
+        <header>
+            <img class="heart-icon" src="../images/heart-solid-204 1.png" alt="icone de coração">
+            <h2>Perguntas frequentes</h2>
+        </header>
+        <div>
+            <h2>Se eu tiver registrado uma criança como se fosse meu filho, sem sê-lo, o que posso fazer para
+                regularizar a situação?</h2>
+            <p>Este é um caso de Adoção à Brasileira. Neste caso,
+                deve-se deflagrar o processo de adoção desta
+                criança, solicitando a anulação do registro de
+                nascimento falso, o que deverá ser feito através de um
+                advogado, se não se souber quem são os pais ou se
+                estes não concordarem com a adoção. Se os pais
+                biológicos forem conhecidos deverão ser ouvidos no
+                processo de adoção.</p>
+            <h2>No caso de uma pessoa querer me entregar uma
+                criança para que eu adote, como devo proceder?</h2>
+            <p>É obrigação de qualquer cidadão encaminhar a mãe
+                e a criança para a Vara da Infância e da Juventude,
+                onde a mãe será ouvida e, depois de investigação da
+                situação, não havendo outra possibilidade, a criança
+                será caminhada para adoção. O judiciário chamará
+                um casal do Cadastro Nacional da Adoção que procure uma criança naquele perfil para adotá-la.</p>
+        </div>
+        <footer>
+        </footer>
+    </section>
+    <section class="sections">
+        <header>
+            <img class="heart-icon" src="../images/heart-solid-204 1.png" alt="icone de coração">
+            <h2>Perguntas frequentes</h2>
+        </header>
+        <div>
+            <h2>E se a mãe ou o pai biológico depois de
+                iniciado o processo, arrepender-se de ter me entregue à criança e quiser levá-la de volta, como
+                proceder?</h2>
+            <p>Depois de finalizado o processo, a adoção é
+                irrevogável. Não há nada que a família biológica
+                possa fazer para mudar isso.</p>
+            <h2>No caso da criança se mostrar rebelde, posso
+                devolvê-lo para os pais biológicos ou para o juiz?</h2>
+            <p>A adoção é irrevogável e a devolução da criança é
+                considerada abandono. Os pais que devolvem a
+                criança são, normalmente, obrigados a pagar pensão
+                alimentícia à criança. Além disso, a criança sofreria
+                danos emocionais e psicológicos irreparáveis.</p>
+        </div>
+        <footer>
+        </footer>
+    </section>
+    <section class="sections">
+        <header>
+            <img class="heart-icon" src="../images/heart-solid-204 1.png" alt="icone de coração">
+            <h2>Perguntas frequentes</h2>
+        </header>
+        <div>
+            <h2>Pretendentes casados tem preferência no
+                Sistema Nacional de Adoção? E pessoas com filhos?</h2>
+            <p>Nem o estado civil nem o número de filhos de uma
+                pessoa ou casal tem influencia em sua posição na fila
+                do Sistema Nacional de Adoção (SNA). Não existe
+                posição privilegiada no SNA nem nesses casos, nem
+                para quem já adotou.</p>
+            <p><a href="https://projetoacalantonatal.com.br/sobre-adocao/perguntas-frequentes/">Sobre adoção -
+                    fontes</a></p>
+        </div>
+        <footer>
+        </footer>
+    </section>
+    <section class="sections">
+        <header>
+            <img class="heart-icon" src="../images/heart-solid-204 1.png" alt="icone de coração">
+            <h2>Vídeos indicados</h2>
+        </header>
+        <div>
+            <a href="https://www.youtube.com/watch?list=PLbtHpzvCvLQlIZIdVKWHnvB-j1NgTazel&v=w3c1nxAJSxs">Adoção passo a
+                passo - Live do GAA Acalanto Natal</a>
+
+            <a href="https://www.youtube.com/watch?v=rjgtJ5KFKkU">Tira Dúvidas Sobre Adoção - Live do GAA Acalanto
+                Natal</a>
+
+            <a href="https://www.instagram.com/tv/CHVzeAPJzFu/?
+            utm_source=ig_web_copy_link">
+                Os desafios e possibilidades do pós-adoção: a
+                importância do acompanhamento psicológico.
+            </a>
+        </div>
+        <footer>
+        </footer>
+    </section>
+    <section class="sections">
+        <header>
+            <img class="heart-icon" src="../images/heart-solid-204 1.png" alt="icone de coração">
+            <h2>Perfis sobre o assunto</h2>
+        </header>
+        <div>
+            <ul>
+                <li>@acalantonatal</li>
+                <li>@anjosdavida</li>
+                <li>@angad</li>
+                <li>@adoteimeusfilhos</li>
+                <li>@coresdaadocao</li>
+                <li>@familiaspossiveis</li>
+                <li>@lucieniapinheiro</li>
+                <li>@lacosdeafeto</li>
+                <li>@lacosdoamorgrupo</li>
+                <li>@mundodaadocao</li>
+                <li>@vinculosdeafeto</li>
+            </ul>
+            <p>Essas são apenas algumas sugestões</p>
+        </div>
+        <footer>
+        </footer>
+    </section>
+    <section class="sections">
+        <header>
+            <img class="heart-icon" src="../images/heart-solid-204 1.png" alt="icone de coração">
+            <h2>Nossos Contatos</h2>
+        </header>
+        <div class="social-icons">
+            <a href="https://www.instagram.com/grupoafetomossoro/"><i class='bx bxl-instagram '
+                        style='color:#262626'>Instagram</i></a>
+            <a href="https://m.facebook.com/grupoafetomossoro"><i class='bx bxl-facebook-circle '
+                        style='color:#262626'>Facebook</i></a>
+            <a href="mailto:grupoafetomossoro@gmail.com"><i class='bx bxs-envelope '
+                        style='color:#262626'>Email</i></a>
+            <a href="https://wa.me/8499025000"><i class='bx bxl-whatsapp '
+                        style='color:#262626'>Whatsapp</i></a>
+            <footer>
+            </footer>
+    </section>
 </body>
 
+>>>>>>> 889bd1984854936c2d3252f51a58b80d5e0a92e3
 </html>
