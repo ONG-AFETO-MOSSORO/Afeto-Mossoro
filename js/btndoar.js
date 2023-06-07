@@ -1,3 +1,4 @@
+
 const doar = document.getElementById('doar')
 
 function showText() {
@@ -7,4 +8,6 @@ function showText() {
 
 function hideText() {
     doar.removeAttribute('class', 'txt-btnDoacoes1')
-    doar.setAttribute('class', 'txt-btnDoacoes')}
+
+    doar.setAttribute('class', 'txt-btnDoacoes')
+}

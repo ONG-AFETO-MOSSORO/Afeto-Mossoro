@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="pt-br">
 
@@ -12,6 +13,9 @@
       width: 100%;
       height: 100%;
     }
+
+   
+
   </style>
 
 
@@ -25,32 +29,36 @@
   <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;400;700&display=swap" rel="stylesheet">
 
 </head>
-<header id="bgPrincipal">
-
-  <img class="logo" src="./images/logo.png" alt="">
-  <p class="tituloHeader">GAA AFETO MOSSORÓ</p>
-
-
-</header>
 
 <body id="bgPrincipal">
+  <header id="bgPrincipal">
+
+    <img class="logo" src="./images/logo.png" alt="">
+    <p class="tituloHeader">GAA AFETO MOSSORÓ</p>
+
+
+  </header>
   <div class="menuFirst">
     <div>
-      <button type="button">QUEM SOMOS?</button>
+      <a class="btnComissoes" href="./pages/comissao.html">NOSSAS COMISSÕES</a>
       <button class="btnVcSabia">
-        <img src="./images/iconheart.png" alt="icone heart btn" style="vertical-align: middle;">
+        <a href="./pages/voce-sabia1.html"><img src="./images/iconheart.png" alt="icone heart btn" style="vertical-align: middle;"></a>
       </button>
     </div>
-
     <div class="btnMidia">
-      <a href="https://www.instagram.com/grupoafetomossoro/"><button type="button"><i class='bx bxl-instagram ' style='color:#e42a2a' ></i></button></a>
-      <a href="https://m.facebook.com/grupoafetomossoro"><button type="button"><i class='bx bxl-facebook-circle ' style='color:#e42a2a' ></i></button></a>
-      <a href="mailto:grupoafetomossoro@gmail.com"><button type="button"><i class='bx bxs-envelope ' style='color:#e42a2a' ></i></button></a>
-      <a href=""><button type="button"><i class='bx bxs-camera ' style='color:#e42a2a'  ></i></button></a>
-      <a href="https://wa.me/8499025000"><button type="button"><i class='bx bxl-whatsapp ' style='color:#e42a2a' ></i></button></a>
-      
-    
-      </div>
+      <a href="https://www.instagram.com/grupoafetomossoro/"><button type="button"><i class='bx bxl-instagram '
+            style='color:#e42a2a'></i></button></a>
+      <a href="https://m.facebook.com/grupoafetomossoro"><button type="button"><i class='bx bxl-facebook-circle '
+            style='color:#e42a2a'></i></button></a>
+      <a href="mailto:grupoafetomossoro@gmail.com"><button type="button"><i class='bx bxs-envelope '
+            style='color:#e42a2a'></i></button></a>
+      <a
+        href="https://www.instagram.com/stories/highlights/17942294560068284/"><button
+          type="button"><i class='bx bxs-camera ' style='color:#e42a2a'></i></button></a>
+      <a href="https://wa.me/8499025000"><button type="button"><i class='bx bxl-whatsapp '
+            style='color:#e42a2a'></i></button></a>
+    </div>
+
 
   </div>
   <section class="sec1">
@@ -58,30 +66,27 @@
 
     <div id="esquerda">
       <div class="btnColors">
-        <a class="btnred" href="./pages/tela-vozes.html">
-          <div><i class='bx bx-heart-circle' style='color:#f4f2f2'><span
-              style="font-family:'Raleway', sans-serif ">&#160 Vozes da adoção</span></i></div>
-        </a>
 
-        <a class="btnorange" href="">
-          <div><i class='bx bx-calendar ' style='color:#f4f2f2'><span
-              style="font-family:'Raleway', sans-serif ">&#160 Agenda</span></i></div>
-        </a>
+        <a  class="btnred" href="./pages/tela-vozes.html"><div><i class='bx bx-heart-circle' style='color:#f4f2f2'> <span
+          style="font-family:'Raleway', sans-serif ">&#160 Vozes da adoção</span></i></div></a>
+        
+        <a  class="btnorange" href="./pages/calendario.html"><div><i class='bx bx-calendar ' style='color:#f4f2f2'><span
+          style="font-family:'Raleway', sans-serif ">&#160 Agenda</span></i></div></a>
+        
 
         <a class="btnpurple" href="./pages/youtube.html">
           <div><i class='bx bxl-youtube ' style='color:#f4f2f2'><span style="font-family:'Raleway', sans-serif ">&#160
                 Youtube</span></i></div>
         </a>
 
-        <a class="btngreen" href="./pages/quero.html">
-          <div><i class='bx bxs-group' style='color:#f4f2f2'><span
-              style="font-family:'Raleway', sans-serif ">&#160 Quero Apadrinhar</span></i></div>
-        </a>
 
-        <a class="btnpink" href="">
-          <div><i class='bx bx-child' style='color:#f4f2f2'><span
-              style="font-family:'Raleway', sans-serif ">&#160 Guia de Adoção</span></i></div>
-        </a>
+        <a  class="btngreen" href="./pages/quero.html"><div><i class='bx bxs-group' style='color:#f4f2f2'><span
+          style="font-family:'Raleway', sans-serif ">&#160 Quero entrar para o Grupo</span></i></div></a>
+        
+          <a  class="btnpink" href="./pages/guia-adocao.html"><div><i class='bx bx-child' style='color:#f4f2f2'><span
+            style="font-family:'Raleway', sans-serif ">&#160 Guia de Adoção</span></i></div></a>
+        
+
 
 
       </div>
@@ -95,7 +100,8 @@
         <p class="txt-btnDoacoes" id="doar">Já teve vontade de ajudar um projeto voluntário mas ficou sem saber o que
           poderia
           fazer?</p><br>
-        <button class="btnDoar" onmouseover="showText()" onmouseleave="hideText()">Como posso doar?</button>
+       <a href="./pages/doar.html"><button class="btnDoar" onmouseover="showText()" onmouseleave="hideText()">Como posso doar?</button></a>
+
       </div>
 
 
@@ -116,13 +122,14 @@
         </div>
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img src="/images/imgkids3.jpg" class="d-block" alt="imagem de crianças brincando">
+            <img src="./images/imgkids3.jpg" class="d-block" alt="imagem de crianças brincando">
+
           </div>
           <div class="carousel-item">
-            <img src="./images/imgkid2.jpg" class="d-block" alt="imagem de crianças brincando">
+            <img src="./images/kids1.jpg" class="d-block" alt="imagem de crianças brincando">
           </div>
           <div class="carousel-item">
-            <img src="./images/imgkids1.jpg" class="d-block" alt="imagem de crianças brincando">
+            <img src="./images/kids2.jpg" class="d-block" alt="imagem de crianças brincando">
           </div>
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
@@ -144,12 +151,14 @@
     <br>
     <div class="tituloSec2">O que é um grupo de apoio à adoção (GAA)?</div>
     <p class="txtSec2">Os GAA são grupos formados pela sociedade civil que trabalham voluntariamente para a divulgação
-      de uma nova cultura para as adoções.</p>
+      de uma nova cultura para as adoções.As ações dos GAA são fundamentadas nas leis e buscam, primeiramente, prevenir o abandono, auxiliar na reintegração familiar das crianças e adolescente e, se isso não for possível, contribuir para que os pequenos tenham, o quanto antes, um lar que os acolha bem e de forma definitiva.
+
+      Além disso, o GAA auxilia no preparo dos que pretendem adotar, acompanha os pais adotivos no pós-adoção, conscientiza a sociedade sobre a garantia do direito à convencia familiar das crianças e adolescentes e, ainda, ajuda na busca ativa de famílias para a adoção de crianças fora do perfil comumente desejado  pelos adotantes (crianças de mais idade, com algum tipo de deficiência, grupos de irmãos ou adoções interrraciais).</p>
 
     <div class="tituloSec2">Quem pode fazer parte de um Grupo de Apoio à Adoção?</div>
     <p class="txtSec2">Não precisa participar apenas os que pensam em adotar ou já adotaram. Apesar de os que já
       passaram pelo processo da adoção serem muito importantes nessa discussão, podem também participar todos os que
-      querem colaborar.</p>
+      querem colaborar na conscientização e mobilização da sociedade em torno da adoção e da garantia do direito à convivência familiar das crianças e adolescentes, especialmente daqueles que se encontram nos abrigos, a espera de um lar que os ame e proteja..</p>
 
   </section>
 
@@ -159,7 +168,8 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
     crossorigin="anonymous"></script>
+  
+    <script src="./js/btndoar.js"></script>
+    <script src="./js/doar.js"></script>
 
 </body>
-
-</html>

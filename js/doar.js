@@ -5,7 +5,7 @@ const boneco = document.getElementById('boneco')
 const parahelp = document.createElement('div')
 const parapay = document.createElement('div')
 
-parahelp.innerHTML = "<p>Que tal se voluntariar? <br> Tem vontade de ajudar com serviços e não sabe como? <br> Clica no link abaixo para se cadastrar e acharmos sua área de atuação</p><a href=''><i class='bx bxs-hand-up bx-lg' style='color:#f57878'  ></i></a>"
+parahelp.innerHTML = "<p>Que tal se voluntariar? <br> Tem vontade de ajudar com serviços e não sabe como? <br> Clica no link abaixo para se cadastrar e acharmos sua área de atuação</p><a href='https://docs.google.com/forms/d/e/1FAIpQLSeznJn9qIWMrxTP37nrrKfy7D0qlbQkJSVPSwJ1LT15dN5IIg/viewform'><i class='bx bxs-hand-up bx-lg' style='color:#f57878'  ></i></a>"
 parapay.innerHTML = "<p>Se você tem interesse em ajudar financeiramente, clica no ícone abaixo para selecionar a melhor opção para você ou clica no ícone do Whatsapp para tirar as dúvidas diretamente com a gente!</p><a href=''><i class='bx bxs-credit-card bx-lg' style='color:#f57878'  ></i></a>"
 
 function ativar() {

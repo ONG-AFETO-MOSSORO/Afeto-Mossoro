@@ -1,7 +1,7 @@
 * {
     padding: 0;
     margin: 0;
-    /* outline: solid red; */
+    /* border: solid red; */
 }
 
 .heart-logo {
@@ -10,7 +10,7 @@
 }
 
 body {
-    background-color: #7EDB06;
+    background-color: white;
 }
 
 .btn-heart {
@@ -35,14 +35,93 @@ header {
     font-family: 'Raleway', sans-serif;
     font-style: normal;
     font-weight: 400;
-    font-size: 52px;
+    font-size: 32px;
     line-height: 75px;
     letter-spacing: 0.1em;
     color: #75B91D;
 }
 
 #p1 {
-    color: white;
-    margin-top: -20px;
-    font-size: x-large;
+    color:darkgreen;
+    margin-top: -34px;
+    font-size: 18px;
 }
+
+.iconInitgroup {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    margin-top: 10%;
+}
+
+.iconInitgroup i {
+    font-size: 170px;
+
+}
+/* 
+.modal {
+    position: relative;
+    width: 400px;
+    height: 300px;
+    border: 1px solid darkgreen;
+    padding: 15px 30px;
+    
+    
+}
+
+.modalClose {
+    display: none;
+}
+
+.modalOpen {
+    
+    position: absolute;
+    top: 10%;
+    left: 38%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(14, 155, 40);
+    height: 1700px;
+    border-radius: 15px;
+    border-color: aquamarine;
+}
+
+.formulario {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    color: white;
+    position: relative;
+      
+}
+
+
+
+.modalOpen button {
+    position: relative;
+    left: 10%;
+    width:80%;
+    margin-bottom: 50px;
+    cursor: pointer;
+    border-color: none;
+    height: 5vh;
+    border-radius: 8px;
+    background-color: darkgreen;
+    color: white;
+}
+
+.modal-title {
+    font-size: 20px;
+    color: rgb(130, 215, 130);
+}
+
+.btnOpenModal {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+} */
