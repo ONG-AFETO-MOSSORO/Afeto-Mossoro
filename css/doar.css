@@ -65,7 +65,7 @@ header {
 }
 
 .cifrao {
-    width: 500px;
+    width: 40%;
     height: 430px;
     background-color: #F4CECE;
     border-radius: 20px 20px 0 0;
@@ -74,7 +74,7 @@ header {
 }
 
 .boneco {
-    width: 500px;
+    width: 40%;
     height: 430px;
     background-color: #F4CECE;
     border-radius: 20px 20px 0 0;
@@ -83,7 +83,7 @@ header {
 }
 
 .help {
-    width: 500px;
+    width: 40%;
     height: 430px;
     background-color: #F4CECE;
     border-radius: 20px 20px 0 0;
@@ -98,7 +98,7 @@ header {
 }
 
 .pay {
-    width: 500px;
+    width: 40%;
     height: 430px;
     background-color: #F4CECE;
     border-radius: 20px 20px 0 0;
@@ -117,7 +117,7 @@ input[type=checkbox] {
 }
 
 .iconheart {
-    
+
     display: flex;
     justify-content: center;
 }
@@ -134,11 +134,11 @@ input[type=checkbox] {
 .sabiaChild {
     display: flex;
     justify-content: center;
-    background-color:#b70d21;
+    background-color: #b70d21;
     width: 145px;
     height: 25px;
     border-radius: 20px 20px 0 0;
-    
+
 }
 
 .sabiaChild:hover {
@@ -165,3 +165,119 @@ input[type=checkbox] {
 }
 
 
+@media (max-width: 600px) {
+
+   
+    .div-doar {
+        margin-top: 40px;
+        font-size: 12px;
+
+    }
+
+    .cifrao {
+        height: 350px;
+        width: 200px;
+        padding-right: 10px;
+    }
+
+    .img-cifrao {
+        display: flex;
+        height: 270px;
+    }
+
+    .boneco {
+        height: 350px;
+        width: 200px;
+    }
+
+    .img-boneco {
+        height: 270px;
+        width: 200px;
+        justify-content: center;
+    }
+
+    header {
+        
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 70%;
+        margin: 55px;
+        padding: 0;
+    }
+
+    body {
+        width: 100%;
+        height: 100%;
+    }
+
+    .div-sabia {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 250px;
+        width: 100%;
+        height: 100%;
+        
+       
+    }
+
+    .sabiaChild {
+        background-color: transparent;
+    }
+
+    .sabiaChild img {
+        height: 950%;
+       
+    }
+    .esconder {
+        display: none;
+    }
+
+}
+
+@media (min-width: 601px) and (max-width: 900px) {
+   
+    .div-doar {
+        margin-top: 40px;
+        font-size: 12px;
+
+    }
+
+    .cifrao {
+        height: 350px;
+        width: 240px;
+        padding-right: 10px;
+    }
+
+    .img-cifrao {
+        display: flex;
+        height: 270px;
+    }
+
+    .boneco {
+        height: 350px;
+        width: 250px;
+    }
+
+    .img-boneco {
+        height: 270px;
+        width: 200px;
+        justify-content: center;
+    }
+
+    header {
+        
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 90px;
+        margin: 0px;
+        
+        
+    }
+
+   
+}
