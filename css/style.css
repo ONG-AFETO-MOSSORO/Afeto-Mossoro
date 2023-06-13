@@ -1,6 +1,3 @@
-
-
-
 * {
     margin: 0;
     padding: 0;
@@ -19,8 +16,8 @@ header {
     justify-content: space-between;
     padding-right: 50px;
     padding-left: 100px;
-    
-    
+
+
 }
 
 #bgPrincipal {
@@ -28,11 +25,11 @@ header {
 }
 
 .tituloHeader {
-    display:flex-end;
+    display: flex-end;
     /* font-family: 'Gill Sans MT'; */
     color: rgb(240, 174, 162);
     font-size: 50px;
-    font-family:'Segoe UI', sans-serif ;
+    font-family: 'Segoe UI', sans-serif;
 }
 
 .logo {
@@ -43,302 +40,18 @@ header {
     display: flex;
 }
 
-.menuFirst{
-display: flex;
-justify-content: space-between;
-padding-left: 40%;
-margin-right: 3%;
-margin-bottom: 2%;
-font-size: 25px;
-
-}
-
-.menuFirst > button , button {
-    background-color: transparent;
-    color: rgb(211, 16, 16);
-    cursor: pointer;
-}
-
-#esquerda {
+.menuFirst {
     display: flex;
-    flex-direction: column;
-    width: 40%;
-    padding-top: 50px;
-    padding-left: 90px;
-    
-    
-}
-
-.btnColors {
-    display: flex;
-    flex-direction: column;
-    gap: 3px;
-    align-items: end;
-    
-    
-    
-}
-
-
-
-#direita {
-    display: flex;
-
-    width: 60%;
-    
-}
-
-#direita img {
-    width: 100%;
-}
-
-.btnred, .btnorange , .btnpurple , .btngreen , .btnpink {
-    
-    width: 45px;
-    height: 7vh;
-    border-top-left-radius: 8px;
-    border-bottom-left-radius: 8px;
-    box-shadow: 1px 1px 5px rgb(135, 132, 132) ;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    cursor: pointer;
-    overflow: hidden;
-    position: relative;
-    
-} 
-
-#esquerda .btnColors .btnred, .btnorange , .btnpurple , .btngreen  i {
-    font-size: 25px;
-    padding-left: 10px;
-    
-}
-
-#esquerda .btnpink i {
-    font-size: 30px;
-    padding-left: 6px;
-}
-
-
-.btnred {
-    background-color: rgb(225, 15, 15);
-    justify-content: left;
-    white-space: nowrap;
-}
-
-
-
-.btnorange {
-    background-color: rgb(239, 124, 9);
-    justify-content: left;
-    white-space: nowrap;
-}
-
-.btnpurple {
-    background-color: blueviolet;
-    justify-content: left;
-    white-space: nowrap;
-}
-
-.btngreen {
-    background-color: rgb(120, 193, 10);
-    justify-content: left;
-    white-space: nowrap;
-
-}
-.btnpink {
-    background-color: rgb(241, 150 , 150);
-    justify-content: left;
-    white-space: nowrap;
-}
-
-
-.btnorange:hover , .btnpurple:hover {
-    width:40%;
-    left: 0;
-    transition: 1.5s;
-}
-.btnred:hover, .btngreen:hover , .btnpink:hover {
-    width:62%;
-    left: 0;
-    transition: 1.5s;
-}
-
-
-.txtDivEsquerda {
-    width: 30%;
-    padding-top: 10px;
-    margin-left: 20px;
-    margin-right: 50px;
-    margin-top: -10px;
-    text-align: center;
-    height: 10vh;
-    font-size: 16px;
-    color: rgb(195, 28, 28);
-}
-
-.btnDoacoes {
-    display: flex;
-    flex-direction: column;
-    width: 180px;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-    margin-top: -30px;
-}
-
-.btnDoar {
-    background-color: rgb(195, 28, 28);
-    color: white;
-    height: 5vh;
-    width: 170px;
-    border-radius: 15px;
-    cursor: pointer;
-}
-
-.txt-btnDoacoes {
-    color: transparent;
-    transition: 1s;
-}
-
-.txt-btnDoacoes1 {
-    transition: 1s;
-    color: rgb(195, 28, 28);
-}
-
-a.tooltip {
-    border-bottom: 1px dashed;
-    text-decoration: none;
-  }
-  a.tooltip:hover {
-    cursor: help;
-    position: relative;
-  }
-  a.tooltip span {
-    display: none;
-  }
-  a.tooltip:hover span {
-    border: #666 2px dotted;
-    padding: 5px 20px 5px 5px;
-    display: block;
-    z-index: 100;
-    background: #e3e3e3;
-    left: 0px;
-    margin: 15px;
-    width: 300px;
-    position: absolute;
-    top: 15px;
-    text-decoration: none;
-  }
-
-
-
-.btnVcSabia {
-    height: 10vh;
-    background-color: transparent;
-    cursor: pointer;
-    
-    
-
-}
-
-.btnVcSabia img {
-justify-content: center;
-height: 5vh;
-animation: pulse 1s alternate infinite ease-in-out;
-}
-
-@keyframes pulse {
-    from {
-        transform: scale(1);
-    }
-
-    to {
-        transform:  scale(1.2);
-    }
-}
-
-.sec2 {
-    background-color:rgb(255, 239, 239);
-    height: 170vh;
-}
-
-.tituloSec2 {
-    background: white;
-    border-radius: 15px;
-    box-shadow: 1px 1px 15px rgb(158, 153, 153);
-    padding-left: 20px;
-    margin-left: 10%;
-    margin-right: 10%;
-    margin-top: 5%;
-    font-size: 40px;
-    text-align: center;
-    font-family: 'Gill Sans';
-    color: rgb(190, 18, 18);
-}
-
-.txtSec2 {
-    margin-left: 12%;
-    margin-right: 10%;
-    margin-top: 2%;
-    font-size: 25px;
-
-}
-
-
-* {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    list-style: none;
-    text-decoration: 0;
-    box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;
-    /* border: 1px solid red; */
-}
-
-
-header {
-    display: flex;
-    align-items: center;
     justify-content: space-between;
-    padding-right: 50px;
-    padding-left: 100px;
-    
-    
-}
-
-#bgPrincipal {
-    background: #F4CECE;
-}
-
-.tituloHeader {
-    display:flex-end;
-    /* font-family: 'Gill Sans MT'; */
-    color: rgb(240, 174, 162);
-    font-size: 50px;
-    font-family:'Segoe UI', sans-serif ;
-}
-
-.logo {
-    width: 200px;
-}
-
-.sec1 {
-    display: flex;
-}
-
-.menuFirst{
-display: flex;
-justify-content: space-between;
-padding-left: 40%;
-margin-right: 3%;
-margin-bottom: 2%;
-font-size: 25px;
+    padding-left: 40%;
+    margin-right: 3%;
+    margin-bottom: 2%;
+    font-size: 25px;
 
 }
 
-.menuFirst > button , button {
+.menuFirst>button,
+button {
     background-color: transparent;
     color: rgb(211, 16, 16);
     cursor: pointer;
@@ -350,8 +63,8 @@ font-size: 25px;
     width: 40%;
     padding-top: 50px;
     padding-left: 90px;
-    
-    
+
+
 }
 
 .btnColors {
@@ -359,44 +72,51 @@ font-size: 25px;
     flex-direction: column;
     gap: 3px;
     align-items: end;
-    
-    
-    
+
+
+
 }
 
 
 
 #direita {
     display: flex;
-
     width: 60%;
-    
+
 }
 
 #direita img {
-    width: 100%;
+    max-width: 100%;
+    height: auto;
 }
 
-.btnred, .btnorange , .btnpurple , .btngreen , .btnpink {
-    
+.btnred,
+.btnorange,
+.btnpurple,
+.btngreen,
+.btnpink {
+
     width: 45px;
     height: 7vh;
     border-top-left-radius: 8px;
     border-bottom-left-radius: 8px;
-    box-shadow: 1px 1px 5px rgb(135, 132, 132) ;
+    box-shadow: 1px 1px 5px rgb(135, 132, 132);
     display: flex;
     align-items: center;
     justify-content: center;
     cursor: pointer;
     overflow: hidden;
     position: relative;
-    
-} 
 
-#esquerda .btnColors .btnred, .btnorange , .btnpurple , .btngreen  i {
+}
+
+#esquerda .btnColors .btnred,
+.btnorange,
+.btnpurple,
+.btngreen i {
     font-size: 25px;
     padding-left: 10px;
-    
+
 }
 
 #esquerda .btnpink i {
@@ -431,26 +151,30 @@ font-size: 25px;
     white-space: nowrap;
 
 }
+
 .btnpink {
-    background-color: rgb(241, 150 , 150);
+    background-color: rgb(241, 150, 150);
     justify-content: left;
     white-space: nowrap;
 }
 
 
-.btnorange:hover , .btnpurple:hover {
-    width:40%;
+.btnorange:hover,
+.btnpurple:hover {
+    width: 40%;
     left: 0;
     transition: 1.5s;
 }
-.btnred:hover, .btnpink:hover {
-    width:62%;
+
+.btnred:hover,
+.btnpink:hover {
+    width: 62%;
     left: 0;
     transition: 1.5s;
 }
 
 .btngreen:hover {
-    width:72%;
+    width: 72%;
     left: 0;
     transition: 1.5s;
 }
@@ -500,15 +224,18 @@ font-size: 25px;
 a.tooltip {
     border-bottom: 1px dashed;
     text-decoration: none;
-  }
-  a.tooltip:hover {
+}
+
+a.tooltip:hover {
     cursor: help;
     position: relative;
-  }
-  a.tooltip span {
+}
+
+a.tooltip span {
     display: none;
-  }
-  a.tooltip:hover span {
+}
+
+a.tooltip:hover span {
     border: #666 2px dotted;
     padding: 5px 20px 5px 5px;
     display: block;
@@ -520,7 +247,7 @@ a.tooltip {
     position: absolute;
     top: 15px;
     text-decoration: none;
-  }
+}
 
 
 
@@ -528,15 +255,16 @@ a.tooltip {
     height: 10vh;
     background-color: transparent;
     cursor: pointer;
-    
-    
+
+
 
 }
 
 .btnVcSabia img {
-justify-content: center;
-height: 5vh;
-animation: pulse 1s alternate infinite ease-in-out;
+    max-width: 100%;
+    justify-content: center;
+    height: 5vh;
+    animation: pulse 1s alternate infinite ease-in-out;
 }
 
 @keyframes pulse {
@@ -545,12 +273,12 @@ animation: pulse 1s alternate infinite ease-in-out;
     }
 
     to {
-        transform:  scale(1.2);
+        transform: scale(1.2);
     }
 }
 
 .sec2 {
-    background-color:rgb(255, 239, 239);
+    background-color: rgb(255, 239, 239);
     height: 170vh;
 }
 
@@ -583,4 +311,198 @@ animation: pulse 1s alternate infinite ease-in-out;
     font-size: 18px;
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
+}
+
+
+
+
+
+
+
+
+@media (max-width: 600px) {
+
+    #bgPrincipal {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+        width: 100%;
+        margin: 0px;
+
+    }
+
+    .logo {
+        display: flex;
+        justify-content: center;
+        margin-left: -30px;
+    }
+
+
+    .tituloHeader {
+        font-size: 20px;
+        width: 250px;
+        display: flex;
+        justify-content: center;
+        margin-left: -30px;
+        margin-top: -50px;
+        padding: 0;
+    }
+
+    .menuFirst {
+        display: flex;
+        z-index: -5;
+        position: relative;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+        padding: 0;
+        align-items: end;
+    }
+
+
+
+    .btnComissoes {
+
+        font-size: 14px;
+        width: 100%;
+        padding-left: 20px;
+        font-size: 10px;
+    }
+
+
+
+    .carousel-inner {
+        display: flex;
+        padding-top: 7%;
+
+    }
+
+    .btnColors {
+        position: relative;
+        height: 30%;
+        width: 100%;
+        margin-top: -25px;
+    }
+
+
+    .tituloSec2 {
+        font-size: 30px;
+        text-align: center;
+        padding: 0 20px;
+    }
+
+    .txtSec2 {
+        margin-top: 30px;
+        text-align: center;
+    }
+
+    .sec2 {
+        height: 100%;
+        padding-bottom: 40px;
+    }
+
+    .btnDoacoes {
+        display: flex;
+        flex-direction: column;
+        width: 180px;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        margin-top: -75px;
+        margin-left: 30%;
+    }
+    .txt-btnDoacoes {
+        color: transparent;
+        transition: 1s;
+        margin: 0;
+        margin-bottom: -20px;
+    }
+    
+    .txt-btnDoacoes1 {
+        transition: 0.5s;
+        color: rgb(195, 28, 28);
+        
+    }
+
+  
+
+
+}
+
+@media (min-width: 601px) and (max-width: 900px) {
+
+    .carousel-inner {
+        position: relative;
+        display: flex;
+        padding-top: 65px;
+    }
+
+    .btnColors {
+        position: relative;
+        height: 40%;
+        width: 100%;
+    }
+
+    #esquerda {
+        padding-top: 12%;
+    }
+
+    #bgPrincipal {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+        width: 100%;
+        margin: 0px;
+
+    }
+
+    .logo {
+        display: flex;
+        justify-content: center;
+        margin-left: -30px;
+    }
+
+
+    .tituloHeader {
+        font-size: 20px;
+        width: 250px;
+        display: flex;
+        justify-content: center;
+        margin-left: -30px;
+        margin-top: -50px;
+        padding: 0;
+    }
+
+    .menuFirst {
+        display: flex;
+        position: relative;
+        flex-direction: column;
+        justify-content: center;
+        width: 30%;
+        height: 100%;
+        padding: 0;
+        margin-left: 100px;
+        align-items: start;
+    }
+
+    .divBtnMenu {
+        position: relative;
+        height: 80px;
+        align-items: start;
+        padding-left: 0;
+        margin: 0;
+        width: 230px;
+        margin-left: 0;
+
+    }
+
+    .btnComissoes {
+        font-size: 14px;
+        width: 100%;
+        margin-left: 0px;
+    }
 }
