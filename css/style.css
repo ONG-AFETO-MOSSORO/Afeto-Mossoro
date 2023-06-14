@@ -353,7 +353,6 @@ a.tooltip:hover span {
 
     .menuFirst {
         display: flex;
-        z-index: -5;
         position: relative;
         flex-direction: column;
         justify-content: center;
