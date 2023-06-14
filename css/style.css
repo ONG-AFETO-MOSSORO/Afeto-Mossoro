@@ -313,13 +313,6 @@ a.tooltip:hover span {
     font-weight: 700;
 }
 
-
-
-
-
-
-
-
 @media (max-width: 600px) {
 
     #bgPrincipal {
@@ -408,6 +401,9 @@ a.tooltip:hover span {
 
     .sec1 {
         height: 400px;
+        display: flex;
+        align-items: start;
+        justify-content: center;
     }
 
     #direita img {
@@ -461,16 +457,13 @@ a.tooltip:hover span {
 
     }
 
-    .carousel-indicators {
-        display: none;
-    }
-
-
-
-
 }
 
 @media (min-width: 601px) and (max-width: 900px) {
+
+    .carousel-indicators {
+        display: none;
+    }
 
     .carousel-inner {
         position: relative;
