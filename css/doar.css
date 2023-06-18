@@ -39,7 +39,7 @@ header {
     font-size: 32px;
     line-height: 75px;
     letter-spacing: 0.1em;
-    color: #FFFFFF;
+    color: #ce828b;
 }
 
 .main {
@@ -51,17 +51,19 @@ header {
 }
 
 .img-cifrao {
-    width: 350px;
+    width: 150px;
     height: auto;
     opacity: 70%;
     margin-top: 50px;
+    cursor: pointer;
 }
 
 .img-boneco {
-    width: 300px;
+    width: 100px;
     height: auto;
     margin-top: 70px;
     margin-left: 15px;
+    cursor: pointer;
 }
 
 .cifrao {
@@ -71,6 +73,8 @@ header {
     border-radius: 20px 20px 0 0;
     display: flex;
     justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 .boneco {
@@ -80,7 +84,19 @@ header {
     border-radius: 20px 20px 0 0;
     display: flex;
     justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
+
+.txt-doar {
+
+    padding: 50px;
+    font-size: 18px;
+    text-align: center;
+    color: #a5666d;
+    
+}
+
 
 .help {
     width: 40%;
@@ -169,31 +185,37 @@ input[type=checkbox] {
 
    
     .div-doar {
-        margin-top: 40px;
+        margin-top: 10px;
         font-size: 12px;
+        color: #ce828b;
+        
+       
 
     }
 
     .cifrao {
         height: 350px;
         width: 200px;
-        padding-right: 10px;
+        
     }
 
     .img-cifrao {
         display: flex;
-        height: 270px;
+        height: 80px;
+        margin-top: 300px;
     }
 
     .boneco {
         height: 350px;
         width: 200px;
+        
     }
 
     .img-boneco {
-        height: 270px;
-        width: 200px;
+        height: 80px;
+        width: 90px;
         justify-content: center;
+        margin-top: 300px;
     }
 
     header {
@@ -219,8 +241,7 @@ input[type=checkbox] {
         gap: 250px;
         width: 100%;
         height: 100%;
-        
-       
+           
     }
 
     .sabiaChild {
@@ -236,17 +257,23 @@ input[type=checkbox] {
     }
 
 }
+.txt-doar {
+    position: absolute;
+    font-size: 14px;
+        
+}
 
 @media (min-width: 601px) and (max-width: 900px) {
    
     .div-doar {
         margin-top: 40px;
         font-size: 12px;
+        color: #ce828b;
 
     }
 
     .cifrao {
-        height: 350px;
+        height: 450px;
         width: 240px;
         padding-right: 10px;
     }
@@ -257,16 +284,31 @@ input[type=checkbox] {
     }
 
     .boneco {
-        height: 350px;
+        height: 450px;
         width: 250px;
     }
 
-    .img-boneco {
-        height: 270px;
-        width: 200px;
+    .img-cifrao {
+        display: flex;
+        height: 80px;
         justify-content: center;
+        margin-bottom: 240px;
     }
 
+    .img-boneco {
+        
+        height: 80px;
+        width: 90px;
+        justify-content: center;
+        margin-bottom: 200px;
+    }
+    
+    .txt-doar {
+        position: relative;
+        font-size: 14px;
+        margin-top: 200px;
+            
+    }
     header {
         
         display: flex;
